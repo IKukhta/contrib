@@ -1,3 +1,6 @@
+// Modified by Acronis International GmbH: removed the indirect requirement on
+// github.com/logrusorgru/aurora/v3 (see the git history of the acronis/v0.4.5 branch).
+
 module entgo.io/contrib
 
 go 1.18
@@ -46,7 +49,6 @@ require (
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/hashicorp/hcl/v2 v2.13.0 // indirect
-	github.com/logrusorgru/aurora/v3 v3.0.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/mitchellh/go-wordwrap v0.0.0-20150314170334-ad45545899c7 // indirect
